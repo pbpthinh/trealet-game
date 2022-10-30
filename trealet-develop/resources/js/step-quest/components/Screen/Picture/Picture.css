@@ -1,0 +1,13 @@
+.step--picture {
+
+}
+
+.step--picture__title {
+    margin: 16px;
+    width: calc(100% - 2 * 16px);
+    text-align: center;
+}
+
+.step--picture__content {
+    display: flex;
+}

@@ -1,0 +1,16 @@
+version: '3'
+services:
+  app_http:
+    build:
+      context: ./
+    volumes:
+    #   - .:/var/www/html
+    #   - .env.prod:/var/www/html/.env
+    #   - /home/devops/trealet/ssl/:/etc/nginx/ssl/trealet.com/
+      - ./docker/php/local.ini:/usr/local/etc/php/conf.d/local.ini
+      - /home/devops/trealet/upload/:/var/www/html/public/upload/trealet-data/
+    ports:
+      - "80:80"
+    environment:
+      - APP_ENV=production
+      - APP_DEBUG=true

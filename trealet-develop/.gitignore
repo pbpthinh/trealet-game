@@ -1,0 +1,45 @@
+node_modules
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+/vendor
+
+.env
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+
+# Laravel 5 & Lumen specific with changed public path
+public_html/storage
+public_html/hot
+
+storage/*.key
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
+
+# Ignore ide helper files
+_ide_helper.php
+.phpstorm.meta.php
+
+# dependencies
+/bower_components
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+*.launch
+.settings/
+
+
+#System Files
+.DS_Store
+Thumbs.db

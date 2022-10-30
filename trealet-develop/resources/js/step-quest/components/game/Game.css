@@ -1,0 +1,103 @@
+nav.navbar {
+    display: none;
+}
+
+main[role="main"] {
+    padding-top: 0;
+}
+
+.headerGame {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    font-size: 30px;
+    padding: 0 24px;
+    width: 100%;
+    background-color: rgba(13, 202, 240, 0.93);
+    box-shadow: 0px 1px 2px 0px #b8b5b5;
+}
+
+.time {
+    width: 100%;
+    /* background-color: #4791FC35; */
+}
+
+.timeleft {
+    height: 8px;
+}
+
+.Game {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+}
+
+.content {
+    flex: 1;
+    overflow: auto;
+}
+
+.score {
+    color: rgb(251 86 238);
+    margin-right: 8px;
+}
+
+.star {
+    color: rgb(255 233 75);
+}
+
+.ant-progress-outer {
+    display: inline-block;
+    width: 100%;
+    padding-right: 30px;
+    justify-content: center;
+}
+
+.ant-progress-inner {
+    height: 15px;
+}
+
+.ant-progress-bg {
+    height: 15px !important;
+}
+
+.ant-progress-text {
+    display: none;
+}
+
+.dropdown-toggle .btn .btn-success {
+    background-color: none !important;
+}
+
+#dropdown-basic {
+    background: none;
+    border: none;
+    box-shadow: none;
+    color: black;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.Game .animation-score {
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    bottom: 50%;
+    transition: bottom .5s;
+}
+
+#backgroundMusic {
+    display: none;
+}

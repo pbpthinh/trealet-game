@@ -1,0 +1,52 @@
+.listMuseum{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.listMuseum .text-title {
+    border-bottom: 2px solid;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.list{
+    cursor: pointer;
+    width: 90%;
+}
+.listItems{
+    background-color: #7fbbff73;
+    padding: 10px;
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    margin-bottom: 22px;
+    box-shadow: 0 0 7px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+}
+.iconFaAngleRight{
+    float: right;
+    padding: auto;
+}
+.iconFaAngleLeft{
+    /* background-color: blue; */
+    font-size: 24px;
+    align-items: center;
+    margin: 0 auto;
+}
+.title {
+    flex: 1;
+    font-size: 22px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.intro{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 500;
+}

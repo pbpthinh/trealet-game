@@ -1,0 +1,20 @@
+{
+  "schema": {
+    "select": {
+      "type": "string",
+      "title": "Best language",
+      "enum": [ "JavaScript", "Python", "PHP", "Java", "C++", "other" ]
+    }
+  },
+  "form": [
+    {
+      "key": "select",
+      "type": "radiobuttons",
+      "activeClass": "btn-success"
+    },
+    {
+      "type": "submit",
+      "title": "Submit"
+    }
+  ]
+}

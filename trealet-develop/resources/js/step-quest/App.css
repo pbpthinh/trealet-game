@@ -1,0 +1,120 @@
+
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.game-card {
+  border-radius: 10px;
+  background-color: #ffffffdd;
+  padding: 12px;
+  color: black;
+}
+
+.game-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.nav ul{
+  list-style-type: none;
+ 
+}
+.nav ul :link{
+  text-decoration: none;
+  display: flex;
+}
+.kep-login-facebook.metro {
+  
+  
+  font-size: 16px;
+  border-radius: 10px;
+}
+.text-center{
+  max-width: 400px;
+  /* height: 700px; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.text-center .box-1{
+  margin-top: 40px;
+  
+}
+.text-center button{
+  width: 270px;
+  height: 50px;
+  border: 1px solid transparent;
+  font-family: Roboto, sans-serif;
+  border-radius: 5px;
+}
+.justify-content{
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .borderForm{
+  max-width: 576px;
+  height: 800px;
+  border: 2px solid rgb(34, 32, 32);
+  background-color: #E2EBF8;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+} */
+.button {
+  text-align: center;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-primary.btn-reverse {
+  color: #0d6efd !important;
+  background-color: #fff !important;
+  border-color: #0d6efd !important;
+}
+
+.btn-primary.btn-reverse:focus,
+.btn-primary.btn-reverse:active {
+  background-color: #0d6efd1b !important;
+  color: #0d6efd;
+}
+
+@media (max-width: 991.98px) {
+  .sidebar:not(.expanded) {
+    margin-left: -250px;
+    display: none !important;
+  }
+
+  .sidebar {
+    position: absolute !important;
+    width: 250px !important;
+    overflow-y: auto;
+  }
+}
+
+.flex-c-m {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.my-box-shadow {
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}

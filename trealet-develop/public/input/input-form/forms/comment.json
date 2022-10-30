@@ -1,0 +1,18 @@
+{
+  "schema": {
+    "comment": {
+      "type": "string",
+      "title": " "
+    }
+  },
+  "form": [
+    {
+      "key": "comment",
+      "type": "textarea"
+    },
+	{
+      "type": "submit",
+      "title": "Submit"
+    }
+  ]
+}

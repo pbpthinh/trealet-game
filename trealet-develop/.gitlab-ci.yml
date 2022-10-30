@@ -1,0 +1,27 @@
+variables:
+  CI_DOCKER_COMPOSE_SERVICE_NAME: trealet
+  CI_REGISTRY_IMAGE: trealet-project/$CI_DOCKER_COMPOSE_SERVICE_NAME
+  GIT_DEPTH: "3"
+
+stages:
+  - lint
+  - test
+  - deploy-dev
+  - deploy-dev-v2
+  - push-registry-staging
+  - deploy-staging
+  - push-registry-prod
+  - deploy-prod
+
+deploy-dev:
+  stage: deploy-dev
+  environment: development
+  tags:
+    - trealet-runner
+  script:
+    - sudo docker builder prune -af
+    - sudo docker compose -f docker-compose.yml up -d --build
+    # - sudo docker compose -f docker-compose.dev.yml up -d --build
+    - sudo docker system prune -f
+  only:
+    - develop

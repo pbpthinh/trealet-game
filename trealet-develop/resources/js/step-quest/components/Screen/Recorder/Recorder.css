@@ -1,0 +1,46 @@
+.step--recorder {
+
+}
+
+.step--recorder__content {
+    display: flex;
+}
+
+.audio-react-recorder__canvas {
+    width: 80%;
+    border-radius: 8px;
+}
+.audio-react-recorder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+.step--recorder__title{
+    margin: 16px;
+    width: calc(100% - 2 * 16px);
+    text-align: center;
+}
+.recording {
+    position: relative;
+}
+
+.preview-audio {
+    position: absolute;
+    top: 0;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255,255,255);
+    border-radius: 8px;
+}
+
+.Recoder {
+    align-items: center;
+}
+
+.btn-control {
+    margin-top: 40px !important;
+    margin: 24px;
+    width: 290px;
+}

@@ -1,0 +1,13 @@
+# Disable index view
+Options -Indexes
+
+# Hide a specific file
+<Files ~ "\.(env|json|config.js|md|gitignore|gitattributes|lock)$">
+    Order allow,deny
+    Deny from all
+</Files>
+
+php_value upload_max_filesize 256M
+php_value post_max_size 256M
+php_value max_execution_time 600
+php_value max_input_time 600
